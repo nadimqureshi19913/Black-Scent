@@ -1,0 +1,196 @@
+*
+{
+  margin:0%;
+  padding:0%;
+  transition:all 1.5s ease-in-out;
+}
+
+  body
+{
+  margin: 0px;
+  padding-top: 40px;
+  height: 100%;
+  width: 100%;
+  background:black;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.container
+{
+ height:100%;
+  width:100%;
+  position:relative;
+  background:pink;
+  border-radius:10px;
+  over-flow:hidden;
+  
+}
+.card-container
+{
+  height:100%;
+  width:100%;
+border-radius:10px;
+  position:relative;
+background-color: rebeccapurple;
+left: -300px;
+ 
+}
+
+.card-container:hover .card-body
+{
+  height:450px;
+  width:700px;
+  background:white;
+}
+.card-container:hover #content-1
+{
+  opacity:1;
+  
+  color:black;
+}
+.card-container:hover #content-2
+{
+  opacity:1;
+   
+  top:65%;
+  color:black;
+}
+
+.card-container:hover .name-of-perfume
+{
+  left:-25%;
+    color:black;
+ transform:rotate(90deg);
+ top:220px;
+  
+  letter-spacing:20px;
+}
+
+.card-container:hover .perfume-logo img
+{
+ width:280px; 
+  height:450px;
+  right:-195px;
+   
+  transform:scale(1.1);
+}
+.card-container:hover .footer
+{
+  top:20%;
+  left:50%;
+  color:black;
+}
+.card-container:hover .years
+{
+  left:40%;
+  top:10%;
+  color:black;
+}
+.card-container:hover .card_body img
+{
+  height:100%;
+  width:100%;
+  top: 3%;
+  left: 10%;
+}
+
+.card-body
+{
+  position:absolute;
+  height:400px;
+  width:400px;
+  left:30%;
+  top:12%;
+  overflow:hidden;
+  background:white;
+  text-align:center;
+  border-radius:10px;
+}
+.card-body img
+{
+  height:30%;
+  width:20%;
+}
+.name-of-perfume
+{
+  position:absolute;
+  transform:rotate(90deg);
+  top:37%;
+  left:15%;
+  font-weight:700;
+  font-size:23px;
+  color:rgba(0,0,0,0.5);
+    letter-spacing:3px;
+  
+}
+.perfume-logo
+{
+  position:absolute;
+  height:100%;
+  width:20%;  
+}
+.perfume-logo img
+{
+  position:absolute;
+  width:80px;
+  height:180px;
+  top:70px;
+  right:-210%;
+}
+.footer
+{
+  position:absolute;
+  top:85%;
+  left:20%;
+    color:black;
+  font-size:25px;
+  
+}
+.heart-logo
+{
+  position:absolute;
+  height: 10%;
+  width: 50%;
+  top: 7%;
+  left: 67%;
+  
+}
+.heart-logo img
+{
+  height:80%;
+  width:20%;
+  
+}
+.years
+{
+  position:absolute;
+  top:20%;
+  left:63%;
+  color:rgba(0,0,0,0.5);
+  font-size:30px;
+}
+#content-1
+{
+  position:absolute;
+  text-align:justify;
+  top:30%;
+  left:59%;
+  font-size:18px;
+   opacity:0;
+ color:black;
+  font-weight: 500;
+  width: 47%;
+}
+#content-2
+{
+  position:absolute;
+  top:30%;
+  left:59%;
+   font-size:18px;
+  opacity:0;
+  color:black;
+  text-align:justify;
+  font-weight: 500;
+  width: 47%;
+}
